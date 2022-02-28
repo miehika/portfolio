@@ -223,3 +223,47 @@
     }
   }
 }
+.otherprojects {
+  .otherprojects__container {
+    display: flex;
+    flex-direction: inline-row;
+    align-items: center;
+    background-color: #F2CA52;
+    height: 55vw;
+
+    .otherprojects__image {
+      height: 49vw;
+    }
+
+    .otherprojects__content {
+      padding-left: 10vw;
+      width: 100%;
+
+      h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 4.5vw;
+        color: #f2f2f2;
+        text-align: left;
+        margin: 0;
+      }
+      p {
+        padding-top: 1vw;
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-size: 3vw;
+        color: #f2f2f2;
+      }
+      .otherprojects__cta {
+        float: left;
+        font-family: "Montserrat", sans-serif;
+        background-color: #f27983;
+        padding: 1vw 2vw;
+        margin-top: 1.8vw;
+        font-size: 2.5vw;
+        color: #f2f2f2;
+        text-decoration: none;
+        border-radius: 100px;
+      }
+    }
+  }
+}
