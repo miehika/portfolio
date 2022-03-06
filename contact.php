@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,300;0,500;0,800;1,600&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="mincss/home.min.css">
     <link rel="stylesheet" href="mincss/headerFooter.min.css">
 
@@ -41,7 +41,7 @@
                         <li><a id="right__menu__link" href="#work">Work</a></li>
                         <li><a id="right__menu__link" href="about">About</a></li>
                         <li><a id="right__menu__link" href="#footer">Contact Us</a></li>
-                        <li id="copyright">&copy; 2021, Powered by<br> <a href="https://hbdesigns.in">HB DESIGNS</a></li>
+                        <li id="copyright">&copy; 2022, Designed By<br> <a href="https://miehikasahu.com">MIEHIKA SAHU</a></li>
                         <li><a target="_blank" href="https://www.behance.net/miehika_s"><img id="menu__socials" src="media/behance.webp" alt=""></a><a target="_blank" href="https://www.instagram.com/miehikasahu/"><img id="menu__socials" src="media/instagram.webp" alt=""></a><a target="_blank" href="https://www.linkedin.com/in/miehikasahu/"><img id="menu__socials" src="media/linkedin.webp" alt=""></a></li>
                     </ul>
 
@@ -109,7 +109,7 @@
 
             <div class="social__container">
                 <div>
-                    <p class="copyright__container">&copy;2021, Powered by <br><a href="https://hbdesigns.in">HB DESIGNS</a></p>
+                    <p class="copyright__container">&copy;2022, Designed By <br><a href="https://miehikasahu.com">MIEHIKA SAHU</a></p>
 
                 </div>
                 <div>

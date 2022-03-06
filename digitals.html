@@ -30,6 +30,13 @@
     <title>Digitals | Miehika Sahu | Graphic Designer</title>
 </head>
 <body>
+    <div class="view_image_parent" id="view_image_parent">
+        <img onclick="closeImage()" id="view_image_close_btn" src="media/close.png" alt="">
+       
+        <div class="view_image_container" id="view_image_container">
+            
+        </div>
+    </div>
     <header>
         <div class="navbar__scroll" id="hidden">
             <div class="header__container" id="header__container">
@@ -49,7 +56,7 @@
                     <li><a id="right__menu__link" href="home#work">Work</a></li>
                     <li><a id="right__menu__link"  href="about">About</a></li>
                     <li><a id="right__menu__link"   href="#footer">Contact Us</a></li>
-                    <li id="copyright">&copy; 2021, Powered by<br> <a href="https://hbdesigns.in">HB DESIGNS</a></li>
+                 <li id="copyright">&copy; 2022, Designed By<br> <a href="https://miehikasahu.com">MIEHIKA SAHU</a></li>
                     <li><a target="_blank" href="https://www.behance.net/miehika_s"><img id="menu__socials" src="media/behance.webp" alt=""></a><a target="_blank" href="https://www.instagram.com/miehikasahu/"><img id="menu__socials"src="media/instagram.webp" alt=""></a><a target="_blank" href="https://www.linkedin.com/in/miehikasahu/"><img id="menu__socials" src="media/linkedin.webp" alt=""></a></li>
                 </ul>
             
@@ -69,7 +76,7 @@
     <div class="top__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/digitals1.png" loading="lazy"  alt="">
+                <img class="right__image" onclick="viewImage('digitals1.png')" src="https://ik.imagekit.io/miehika/cdn/digitals1.png" loading="lazy"  alt="">
             </div>
 
             <div class="text__container">
@@ -91,7 +98,7 @@
                     of nature with its wildlife.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/digitals2.png" loading="lazy"  alt="">
+                <img class="right__image" onclick="viewImage('digitals2.png')" src="https://ik.imagekit.io/miehika/cdn/digitals2.png" loading="lazy"  alt="">
             </div>
         </div>
     </div>
@@ -99,7 +106,7 @@
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/digitals3.png" loading="lazy"  alt="">
+                <img class="left__image" onclick="viewImage('digitals3.png')" src="https://ik.imagekit.io/miehika/cdn/digitals3.png" loading="lazy"  alt="">
             </div>
             <div class="text__container">
                 <h3>NATURE PHOTOGRAPHY</h3>
@@ -120,7 +127,7 @@
                     Illustration techinques.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/digitals4.png" loading="lazy"  alt="">
+                <img class="right__image" onclick="viewImage('digitals4.png')" src="https://ik.imagekit.io/miehika/cdn/digitals4.png" loading="lazy"  alt="">
             </div>
         </div>
     </div>
@@ -128,7 +135,7 @@
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/digitals5.png" loading="lazy"  alt="">
+                <img class="left__image"  onclick="viewImage('digitals5.png')" src="https://ik.imagekit.io/miehika/cdn/digitals5.png" loading="lazy"  alt="">
             </div>
             <div class="text__container">
                 <h3>PRODUCT PHOTOGRAPHY</h3>
@@ -149,7 +156,7 @@
                     wine in it.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/digitals6.png" loading="lazy"  alt="">
+                <img class="right__image" onclick="viewImage('digitals6.png')" src="https://ik.imagekit.io/miehika/cdn/digitals6.png" loading="lazy"  alt="">
             </div>
         </div>
     </div>
@@ -157,7 +164,7 @@
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/digitals7.png" loading="lazy"  alt="">
+                <img class="left__image" onclick="viewImage('digitals7.png')" src="https://ik.imagekit.io/miehika/cdn/digitals7.png" loading="lazy"  alt="">
             </div>
             <div class="text__container">
                 <h3>PRODUCT 
@@ -181,14 +188,14 @@
                     to give it a rich feel.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/digitals8.png" loading="lazy"  width="80%" alt="">
+                <img class="right__image" onclick="viewImage('digitals8.png')" src="https://ik.imagekit.io/miehika/cdn/digitals8.png" loading="lazy"  width="80%" alt="">
             </div>
         </div>
     </div>
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/digitals9.png" loading="lazy" width="80%"  alt="">
+                <img class="left__image" onclick="viewImage('digitals9.png')" src="https://ik.imagekit.io/miehika/cdn/digitals9.png" loading="lazy" width="80%"  alt="">
             </div>
             <div class="text__container">
                 <h3>3D PACKAGING DESIGN</h3>
@@ -205,14 +212,14 @@
                 <p>3D model for a water bottle.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/digitals10.png" loading="lazy"  width="80%" alt="">
+                <img class="right__image" onclick="viewImage('digitals10.png')" src="https://ik.imagekit.io/miehika/cdn/digitals10.png" loading="lazy"  width="80%" alt="">
             </div>
         </div>
     </div>
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/digitals11.png" width="90%" loading="lazy"  alt="">
+                <img class="left__image" onclick="viewImage('digitals11.png')" src="https://ik.imagekit.io/miehika/cdn/digitals11.png" width="90%" loading="lazy"  alt="">
             </div>
             <div class="text__container">
                 <h3>IMAGE MANIPULATION</h3>
@@ -245,7 +252,7 @@
     
             <div class="social__container">
                 <div>
-                    <p class="copyright__container">&copy;2021, Powered by <br><a href="https://hbdesigns.in">HB DESIGNS</a></p>
+                    <p class="copyright__container">&copy;2022, Designed By <br><a href="https://miehikasahu.com">MIEHIKA SAHU</a></p>
                     
                 </div>
                 <div>
@@ -268,7 +275,19 @@
             nav.style.display="none";
         })
     
-    
+        function viewImage(imagename)
+        {
+        const imageParent=document.getElementById("view_image_parent");
+        const imageContainer=document.getElementById("view_image_container");  
+        imageContainer.innerHTML=``;
+        imageContainer.innerHTML=`<img class="view_image" src="https://ik.imagekit.io/miehika/cdn/tr:orig-true/${imagename}" loading="lazy" alt="">`;       
+        imageParent.style.display="block";
+        }
+        function closeImage()
+        {
+        const imageParent=document.getElementById("view_image_parent");
+        imageParent.style.display="none";
+        }
     
     </script>
 </body>
