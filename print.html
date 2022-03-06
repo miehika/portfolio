@@ -29,6 +29,13 @@
     <title>Print Design | Miehika Sahu | Graphic Designer</title>
 </head>
 <body>
+    <div class="view_image_parent" id="view_image_parent">
+        <img onclick="closeImage()" id="view_image_close_btn" src="media/close.png" alt="">
+       
+        <div class="view_image_container" id="view_image_container">
+            
+        </div>
+    </div>
     <header>
         <div class="navbar__scroll" id="hidden">
             <div class="header__container" id="header__container">
@@ -48,7 +55,7 @@
                     <li><a id="right__menu__link" href="home#work">Work</a></li>
                     <li><a id="right__menu__link"  href="about">About</a></li>
                     <li><a id="right__menu__link"   href="#footer">Contact Us</a></li>
-                    <li id="copyright">&copy; 2021, Powered by<br> <a href="https://hbdesigns.in">HB DESIGNS</a></li>
+                 <li id="copyright">&copy; 2022, Designed By<br> <a href="https://miehikasahu.com">MIEHIKA SAHU</a></li>
                     <li><a target="_blank" href="https://www.behance.net/miehika_s"><img id="menu__socials" src="media/behance.webp" alt=""></a><a target="_blank" href="https://www.instagram.com/miehikasahu/"><img id="menu__socials"src="media/instagram.webp" alt=""></a><a target="_blank" href="https://www.linkedin.com/in/miehikasahu/"><img id="menu__socials" src="media/linkedin.webp" alt=""></a></li>
                 </ul>
             
@@ -71,7 +78,7 @@
                 <p>Minimalistic and <br> simple visiting card <br> design.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/print1.png" loading="lazy" alt="">
+                <img class="right__image" onclick="viewImage('print1.png')" src="https://ik.imagekit.io/miehika/cdn/print1.png" loading="lazy" alt="">
             </div>
             
 
@@ -80,7 +87,7 @@
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/print2.png" loading="lazy" alt="">
+                <img class="left__image" onclick="viewImage('print2.png')" src="https://ik.imagekit.io/miehika/cdn/print2.png" loading="lazy" alt="">
             </div>
             <div class="text__container">
                 <h3>VISITING <br> CARD</h3>
@@ -97,14 +104,14 @@
                 <p>Brochure design for travel agency.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/print3.png" loading="lazy" alt="">
+                <img class="right__image" onclick="viewImage('print3.png')" src="https://ik.imagekit.io/miehika/cdn/print3.png" loading="lazy" alt="">
             </div>
         </div>
     </div>
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/print4.png" loading="lazy" alt="">
+                <img class="left__image" onclick="viewImage('print4.png')" src="https://ik.imagekit.io/miehika/cdn/print4.png" loading="lazy" alt="">
             </div>
             <div class="text__container">
                 <h3>BOOK COVER DESIGN</h3>
@@ -127,14 +134,14 @@
                     using Illustration techniques.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/print5.png" loading="lazy" alt="">
+                <img class="right__image" onclick="viewImage('print5.png')" src="https://ik.imagekit.io/miehika/cdn/print5.png" loading="lazy" alt="">
             </div>
         </div>
     </div>
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/print6.png" loading="lazy" alt="">
+                <img class="left__image" onclick="viewImage('print6.png')" src="https://ik.imagekit.io/miehika/cdn/print6.png" loading="lazy" alt="">
             </div>
             <div class="text__container">
                 <h3>BROCHURE DESIGN</h3>
@@ -157,14 +164,14 @@
                     Photography techniques.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/print7.png" loading="lazy" alt="">
+                <img class="right__image" onclick="viewImage('print7.png')" src="https://ik.imagekit.io/miehika/cdn/print7.png" loading="lazy" alt="">
             </div>
         </div>
     </div>
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/print8.png" loading="lazy" alt="" width="80%">
+                <img class="left__image" onclick="viewImage('print8.png')" src="https://ik.imagekit.io/miehika/cdn/print8.png" loading="lazy" alt="" width="80%">
             </div>
             <div class="text__container">
                 <h3>BOOK COVER DESIGN</h3>
@@ -186,18 +193,22 @@
                     designer.</sp>
             </div>
             <div class="image__container">
-                <img class="right__image" src="https://ik.imagekit.io/miehika/cdn/print9.png" loading="lazy" alt="">
+                <img class="right__image" onclick="viewImage('print9.png')" src="https://ik.imagekit.io/miehika/cdn/print9.png" loading="lazy" alt="">
             </div>
         </div>
     </div>
     <div class="left__container">
         <div class="main__container">
             <div class="image__container">
-                <img class="left__image" src="https://ik.imagekit.io/miehika/cdn/print10.png" loading="lazy" width="80%" alt="">
+                <img class="left__image" onclick="viewImage('print10.png')" src="https://ik.imagekit.io/miehika/cdn/print10.png" loading="lazy" width="80%" alt="">
             </div>
             <div class="text__container">
                 <h3>FOOD MAGAZINE</h3>
-                <p>Food magazine designed for travellers who love traditional zayka.</p></div>
+                <p>Food magazine designed for travellers who love traditional zayka.</p>
+                <div class="page__navigation">
+                    <a target="_blank" href="https://bit.ly/zaykaebhopalmiehika">View More</a>
+                </div></div>
+                
             
             
 
@@ -222,7 +233,7 @@
     
             <div class="social__container">
                 <div>
-                    <p class="copyright__container">&copy;2021, Powered by <br><a href="https://hbdesigns.in">HB DESIGNS</a></p>
+                    <p class="copyright__container">&copy;2022, Designed By <br><a href="https://miehikasahu.com">MIEHIKA SAHU</a></p>
                     
                 </div>
                 <div>
@@ -245,6 +256,19 @@
             nav.style.display="none";
         })
     
+        function viewImage(imagename)
+        {
+        const imageParent=document.getElementById("view_image_parent");
+        const imageContainer=document.getElementById("view_image_container");  
+        imageContainer.innerHTML=``;
+        imageContainer.innerHTML=`<img class="view_image" src="https://ik.imagekit.io/miehika/cdn/tr:orig-true/${imagename}" loading="lazy" alt="">`;       
+        imageParent.style.display="block";
+        }
+        function closeImage()
+        {
+        const imageParent=document.getElementById("view_image_parent");
+        imageParent.style.display="none";
+        }
     
     
     </script>
