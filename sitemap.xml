@@ -8,38 +8,43 @@
 
 
 <url>
-  <loc>http://miehikasahu.com/</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://miehikasahu.com/</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://miehikasahu.com/home</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://medium.miehikasahu.com/</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://miehikasahu.com/home</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://miehikasahu.com/about</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://miehikasahu.com/about</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://miehikasahu.com/print</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://miehikasahu.com/print</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://miehikasahu.com/branding</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://miehikasahu.com/branding</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://miehikasahu.com/visuals</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://miehikasahu.com/visuals</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://miehikasahu.com/digitals</loc>
-  <lastmod>2021-06-21T17:58:18+00:00</lastmod>
+  <loc>https://miehikasahu.com/digitals</loc>
+  <lastmod>2022-09-20T22:04:00+00</lastmod>
   <priority>0.80</priority>
 </url>
 
